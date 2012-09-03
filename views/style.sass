@@ -1,3 +1,5 @@
+$orange: #FF8C00 
+
 #container
   width: 950px
   padding: 10px
@@ -5,11 +7,11 @@
   font-family: verdana
   font: 13px/1.231 sans-serif
   a
-    color: #EA7D28
+    color: $orange
     border-bottom: 1px dotted #FFCC99
     text-decoration: none
     &:hover
-      color: #CC7000
+      color: darken($orange, 10%)
 
 #header1
   font-size: 25px
@@ -35,7 +37,7 @@
 #first_name
   float: left
   clear: both
-  color: #EA7D28
+  color: $orange
   font-style: normal
   letter-spacing: -6px
   font-weight: bold
