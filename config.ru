@@ -1,2 +1,2 @@
-require './resume'
+require 'resume'
 run Sinatra::Application
