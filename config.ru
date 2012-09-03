@@ -1,4 +1,4 @@
 require 'rubygems'
 require 'sinatra'
-require 'resume'
+require './resume'
 run Sinatra::Application
