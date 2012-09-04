@@ -1,0 +1,35 @@
+#left-col
+  #header1
+    Innovative + intuitive<br>software development
+  #header2
+    helping organizations achieve<br>
+    goals efficiently and enjoyably
+
+  .section
+    .h1
+      Highlights of Qualifications
+    = haml :_qualifications
+  .section
+    .h1
+      Professional Experience
+    = haml :_experience
+  .section
+    .h1
+      Education
+    = haml :_education
+
+#right-col
+  #first_name Jason
+  #last_name Galuten
+  #designation Web Developer
+  #image
+    %img{:src => 'head_shot.png'}
+  #info
+    1201 Eagle Ave<br>
+    Alameda, CA 94501
+  #info
+    
+    %a{:href => 'mailto:jason@galuten.com'} jason@galuten.com
+    %div +1 310 980 2841
+    
+#footer

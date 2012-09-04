@@ -1,0 +1,11 @@
+.title_info
+  .headings
+    .position= @position
+    .company
+      - if @company.kind_of?(Hash)
+        %a{:href => @company[:url]}
+          = @company[:name]
+      - else
+        = @company
+    .where= @where
+  .period= @period
